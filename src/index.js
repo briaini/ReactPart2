@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import Note from './components/Note'
 import App from './App'
 import axios from 'axios'
-
+//test
 // const promise = axios.get('http://localhost:3001/notes')
 
 axios.get('http://localhost:3001/notes').then(response => {
@@ -13,7 +13,6 @@ axios.get('http://localhost:3001/notes').then(response => {
     document.getElementById('root')
   )
 })
-
 // const notes = [
 //   {
 //     id: 1,
